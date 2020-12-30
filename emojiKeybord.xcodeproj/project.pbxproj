@@ -16,6 +16,8 @@
 		3E49351325917E4B005417D9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E49351225917E4B005417D9 /* main.m */; };
 		3E49351D25917E4B005417D9 /* emojiKeybordTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E49351C25917E4B005417D9 /* emojiKeybordTests.m */; };
 		3E49352825917E4B005417D9 /* emojiKeybordUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E49352725917E4B005417D9 /* emojiKeybordUITests.m */; };
+		3E493536259182A6005417D9 /* EmojisList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3E493535259182A6005417D9 /* EmojisList.plist */; };
+		3E493539259186D9005417D9 /* EmojiView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E493538259186D9005417D9 /* EmojiView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +56,9 @@
 		3E49352325917E4B005417D9 /* emojiKeybordUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = emojiKeybordUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E49352725917E4B005417D9 /* emojiKeybordUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = emojiKeybordUITests.m; sourceTree = "<group>"; };
 		3E49352925917E4B005417D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3E493535259182A6005417D9 /* EmojisList.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = EmojisList.plist; sourceTree = "<group>"; };
+		3E493537259186D9005417D9 /* EmojiView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EmojiView.h; sourceTree = "<group>"; };
+		3E493538259186D9005417D9 /* EmojiView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EmojiView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +115,9 @@
 				3E49350425917E4A005417D9 /* SceneDelegate.m */,
 				3E49350625917E4A005417D9 /* ViewController.h */,
 				3E49350725917E4A005417D9 /* ViewController.m */,
+				3E493537259186D9005417D9 /* EmojiView.h */,
+				3E493538259186D9005417D9 /* EmojiView.m */,
+				3E493535259182A6005417D9 /* EmojisList.plist */,
 				3E49350925917E4A005417D9 /* Main.storyboard */,
 				3E49350C25917E4B005417D9 /* Assets.xcassets */,
 				3E49350E25917E4B005417D9 /* LaunchScreen.storyboard */,
@@ -241,6 +249,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3E49351025917E4B005417D9 /* LaunchScreen.storyboard in Resources */,
+				3E493536259182A6005417D9 /* EmojisList.plist in Resources */,
 				3E49350D25917E4B005417D9 /* Assets.xcassets in Resources */,
 				3E49350B25917E4A005417D9 /* Main.storyboard in Resources */,
 			);
@@ -269,6 +278,7 @@
 			files = (
 				3E49350825917E4A005417D9 /* ViewController.m in Sources */,
 				3E49350225917E4A005417D9 /* AppDelegate.m in Sources */,
+				3E493539259186D9005417D9 /* EmojiView.m in Sources */,
 				3E49351325917E4B005417D9 /* main.m in Sources */,
 				3E49350525917E4A005417D9 /* SceneDelegate.m in Sources */,
 			);
